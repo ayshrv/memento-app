@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:clickable="true"
+        >
+
+        <TextView
+            android:id="@+id/time_stamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            tools:text="Time Stamp"
+            android:textColor="#1483df"
+            />
+
+        <TextView
+            android:id="@+id/face_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Face Text"
+            android:textColor="#3fa906"
+            />
+
+        <TextView
+            android:id="@+id/speech_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Speech Text"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/vision_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Caption Text"
+            android:textColor="#696969"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

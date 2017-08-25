@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/parent_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sliding_search_view_header_height"
+        android:text="Memento"
+        android:textSize="150px"
+        android:textColor="#0099cc"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tag_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sliding_search_view_header_height"
+        android:text="Never Forget A Thing!"
+        android:gravity="right"
+        android:layout_marginTop="420px"
+        android:layout_marginRight="20px"
+        android:textSize="50px"
+        android:textColor="#001e28" />
+
+    <FrameLayout
+        android:id="@+id/dim_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_results_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingTop="60dp"
+            android:clipToPadding="false"/>
+
+        <com.arlib.floatingsearchview.FloatingSearchView
+            android:id="@+id/floating_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:translationY="@dimen/sliding_search_view_header_height"
+            app:floatingSearch_close_search_on_keyboard_dismiss="false"
+            app:floatingSearch_dimBackground="false"
+            app:floatingSearch_dismissOnOutsideTouch="true"
+            app:floatingSearch_leftActionMode="noLeftAction"
+            app:floatingSearch_menu="@menu/menu_main"
+            app:floatingSearch_searchBarMarginLeft="@dimen/search_view_inset"
+            app:floatingSearch_searchBarMarginRight="@dimen/search_view_inset"
+            app:floatingSearch_searchBarMarginTop="@dimen/search_view_inset"
+            app:floatingSearch_searchHint="Search..."
+            app:floatingSearch_showSearchKey="true"
+            app:floatingSearch_suggestionsListAnimDuration="250"/>
+    </FrameLayout>
+</RelativeLayout>
+

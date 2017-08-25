@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Memento</string>
+    <string name="notification_title">Smar Running</string>
+    <string name="notification_message">Your artificial memory is being created!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_log">Log</string>
+    <string name="action_search">Search results</string>
+    <string name="action_start_service">Start</string>
+    <string name="action_stop_service">Stop</string>
+    <string name="action_add_people">Add people</string>
+    <string name="action_search_detail">Details</string>
+    <string name="speech_key">9378ab0672644a4f8e889de43930a2f2</string>
+    <string name="vision_key">b2286ce7001a4df39fb547ed820bd95a</string>
+    <string name="face_key">aeadaf192fd747a5aecac027d59f9906</string>
+
+    <!-- Person group management activities -->
+    <string name="delete">Delete</string>
+    <string name="done_and_save">Save</string>
+
+    <string name="person_group_list">Person Group List</string>
+    <string name="person_group_list_tip">- Tap on a group to edit.\n- Long tap to delete.</string>
+    <string name="add_person_group">Add Person Group</string>
+
+    <string name="person_group">Person Group</string>
+    <string name="person_group_tip">- Tap on a person to edit.\n- Long press to delete.</string>
+    <string name="person_group_name">Person group name:</string>
+    <string name="type_in_person_group_name_tip">Name (within 30 characters)</string>
+    <string name="add_person">Add Person</string>
+
+    <string name="person">Person</string>
+    <string name="persons">Persons</string>
+    <string name="person_tip">- Long press on a face to delete.</string>
+    <string name="type_in_person_name_tip">Name (within 30 characters)</string>
+    <string name="add_face">Add Face</string>
+    <string name="person_name">Person name:</string>
+    <string name="add_face_to_person">Add Faces To Person</string>
+    <string name="select_face_tip">Select this person\'s faces (if exist) by click on the checkbox.</string>
+
+    <!-- Logs -->
+    <string name="log">Log:</string>
+    <string name="detection_log">Detection Log</string>
+    <string name="verification_log">Verification Log</string>
+    <string name="find_similar_face_log">Find Similar Face Log</string>
+    <string name="grouping_log">Grouping Log</string>
+    <string name="identification_log">Identification Log</string>
+
+    <!-- Warning messages -->
+    <string name="person_name_empty_warning_message">Person name cannot be empty</string>
+    <string name="no_face_to_group">No faces to group</string>
+    <string name="no_person_group_selected_for_identification_warning">No person group selected</string>
+    <string name="face_cannot_be_identified">Unknown person</string>
+    <string name="user_provided_person_name">Person name</string>
+    <string name="user_provided_description_data">User data</string>
+    <string name="user_provided_person_group_name">Person group name</string>
+    <string name="user_provided_person_group_description_data">User data</string>
+
+    <!-- Common in all activities -->
+    <string name="progress_dialog_title">Please wait</string>
+    <string name="view_log">View Log</string>
+
+    <!-- Select image activity -->
+    <string name="select_an_image">Select an Image</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="select_image_in_album">From Gallery</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/threshold_sound_level"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Threshold Sound Level"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/threshold_sound_level"
+        android:layout_toLeftOf="@+id/threshold_sound_level"
+        android:layout_toStartOf="@+id/threshold_sound_level" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Duration"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/record_duration"
+        android:layout_toLeftOf="@+id/record_duration"
+        android:layout_toStartOf="@+id/record_duration" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/record_duration"
+        android:layout_below="@+id/threshold_sound_level"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/done_button"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="39dp"
+        android:onClick="doneChanges"/>
+
+
+</RelativeLayout>
