@@ -2,6 +2,11 @@
 
 Created a Android App which serves as an AI assistant for human memory.
 
+*This app was the winner of Microsoft [code.fun.do](https://www.acadaccelerator.com/Home/CFDShowCase) 2017 at  IIT (BHU) Varanasi and participated in code.fun.do SHOWCASE.*
+
+* [Youtube link](https://www.youtube.com/watch?v=RxNGBI3go7Y&t=21s)
+* [Google Play Store Link](https://play.google.com/store/apps/details?id=com.memento.gaurav.smar_test2&hl=en)
+
 ## Introduction
 
 Every second of our life, we see, hear, and try to understand the world. Thanks to the autonomous subconscious mind, our experiences are automatically stored in the memory. Forgetfulness is a common ailment with most people these days, and it is only on the rise with progressive memory-related ailments such as Alzheimer's disease, amnesia, etc. due to which people tend to forgets whereabouts of the things they have used or said to someone in the past.
@@ -9,9 +14,9 @@ Every second of our life, we see, hear, and try to understand the world. Thanks 
 Memento is an AI based application which can serve as an assistant for our human memory. It can see the world and hear voices, just as humans do. It tries to understand what is happening (or at least mimic "understanding") and store its experiences in a memory chip and IT NEVER FORGETS!
 
 
-<img float = "left" src="./images/app.jpeg" width='30%'> 
-<img float = "left" src="./images/photo.jpeg" width='30%'>
-<img float = "left" src="./images/search.jpeg" width='30%'>
+
+
+<img float = "left" src="./images/app.jpeg" width='30%'> <img float = "left" src="./images/photo.jpeg" width='30%'> <img float = "left" src="./images/search.jpeg" width='30%'>
 
 ## Approach
 
