@@ -8,7 +8,9 @@ Every second of our life, we see, hear, and try to understand the world. Thanks 
 
 Memento is an AI based application which can serve as an assistant for our human memory. It can see the world and hear voices, just as humans do. It tries to understand what is happening (or at least mimic "understanding") and store its experiences in a memory chip and IT NEVER FORGETS!
 
-<img align = "left" src="./images/training_loss_drop05.jpg" width='48%' height='50%'>
+
+<img align = "left" src="./images/app.jpeg" width='30%'>
+
 
 ## Approach
 
