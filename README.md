@@ -50,7 +50,7 @@ Once started, the app keeps running in the background. In order to detect faces,
 
 **Querying**: The app supports simple querying functionality. Results are displayed in the order of decreasing probability.
 
-**Other Features :** You can configure the various thresholds for the app in the "Setting" option. Also there is a "Log" option which allows for easy debugging.
+**Other Features**: You can configure the various thresholds for the app in the "Setting" option. Also there is a "Log" option which allows for easy debugging.
 
 ## Conclusions
 
